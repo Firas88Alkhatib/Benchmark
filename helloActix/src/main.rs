@@ -1,9 +1,3 @@
-// use std::env;
-// fn main() {
-//     let command: Vec<String> = env::args().collect();
-//     println!("command line args {:?}", command);
-// }
-
 use actix_web::{get, App, HttpServer, Responder};
 
 #[get("/hello")]
